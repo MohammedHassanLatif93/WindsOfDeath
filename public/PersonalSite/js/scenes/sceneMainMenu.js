@@ -26,7 +26,7 @@ class SceneMainMenu extends Phaser.Scene {
 
 
     create() {
-        titleBG = this.add.image(game.config.width / 2, (game.config.height / 2) + 48, "titleBG");
+        titleBG = this.add.image(game.config.width / 2, (game.config.height / 2), "titleBG");
 
         this.sfx = {
             btnOver: this.sound.add("sndBtnOver"),
